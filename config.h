@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code:style=Bold:pixelsize=30:antialias=true:autohint=true";
-static char *font2[] = { "思源黑体 CN HEAVY:style=Heavy:pixelsize=28:antialias=true:autohint=true" };
+static char *font = "Fira Code:style=Bold:pixelsize=22:antialias=true:autohint=true";
+static char *font2[] = { "思源黑体 CN HEAVY:style=Heavy:pixelsize=22:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
