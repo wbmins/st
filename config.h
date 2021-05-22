@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code:style=Bold:pixelsize=22:antialias=true:autohint=true";
-static char *font2[] = { "思源黑体 CN HEAVY:style=Heavy:pixelsize=22:antialias=true:autohint=true" };
+static char *font = "Fira Code:style=Bold:pixelsize=28:antialias=true:autohint=true";
+static char *font2[] = { "思源黑体 CN HEAVY:style=Heavy:pixelsize=28:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -264,7 +264,6 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
 	{ XK_ANY_MOD,		    Button2,	    selpaste,	    {.i =  0} },
 	{ MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,               XK_Control_L,   iso14755,       {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 	{ MODKEY,               XK_Page_Up,     kscrollup,      {.i = -1} },
